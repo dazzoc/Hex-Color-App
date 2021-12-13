@@ -11,7 +11,47 @@
     font-weight: 700;
     letter-spacing: .02em;
   }
+
+  .container {
+    position: relative;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+
+  .hat {
+    position: relative;
+    z-index: 1;
+    width: 250px;
+    height: 120px;
+    background-color: #F7ECBD;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transform: rotate(-7deg);
+    bottom: 20px;
+  }
   
+  .hat-brim {
+    position: relative;
+    width: 200px;
+    height: 20px;
+    background-color: #F7ECBD;
+    right: -200px;
+    bottom: -100px;
+    border-radius: 50px;
+  }
+  
+  .head {
+    position: relative;
+    width: 300px;
+    height: 375px;
+    background-color: #FF9669;
+    border-radius: 120px;
+    transform: rotate(-3deg);
+    bottom: 50px;
+  }
+
   table {
     width: 700px;
     height: 115px;
