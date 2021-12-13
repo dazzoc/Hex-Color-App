@@ -11,8 +11,9 @@ ___
 - The Color API
 ___
 ## Screenshots
+
+![Imgur](https://i.imgur.com/1b71oIt.png)
 <!--
-![Wireframe](image or url)
 ![Screenshot](image or url)
 -->
 ___
