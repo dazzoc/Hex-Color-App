@@ -222,6 +222,60 @@
         border-radius: 0px 0px 30px 30px;
         background-color: #ab7341;
     }
+
+    .bristles {
+        position: relative;
+        width: 215px;
+        height: 160px;
+        z-index: 0;
+        bottom: 370px;
+        left: 7px;
+        background-color: #F7ECBD;
+    }
+
+    .paint {
+        position: relative;
+        width: 100px;
+        height: 125px;
+        bottom: 545px;
+        right: 5px;
+        border-radius: 95% 84% 100% 73% / 62% 73% 56% 64%;
+        background-color: #3C6673;
+    }
+
+    .paint2 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        bottom: 675px;
+        left: 50px;
+        transform: rotate(-45deg);
+        border-radius: 34% 79% 100% 49% / 37% 96% 65% 38%;
+        background-color: #3C6673;
+    }
+
+    .paint3 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        bottom: 765px;
+        left: 76px;
+        transform: rotate(20deg);
+        border-radius: 95% 79% 100% 73% / 60% 96% 65% 38%;
+        background-color: #3C6673;
+    }
+
+    .paint4 {
+        position: relative;
+        width: 85px;
+        height: 85px;
+        bottom: 865px;
+        left: 145px;
+        transform: rotate(20deg);
+        border-radius: 95% 79% 100% 73% / 60% 96% 65% 38%;
+        background-color: #3C6673;
+    }
+
   /* ----------------------table CSS--------------------- */
 
   table {

@@ -4,8 +4,9 @@ const URL = 'https://www.thecolorapi.com/id?hex=';
 // Element References 
 const $form = $('form');
 const $input = $('input[type="text"]');
-let $swatch = $('.swatchColor')
 let $info = $('.info');
+let $swatch = $('.swatchColor');
+let $paint = $('.paint, .paint2, .paint3, .paint4');
 
 // Event Listeners 
 $form.on('submit', getHex);
@@ -37,4 +38,5 @@ function render(hexData) {
             <th id="rgbCode">${hexData.rgb.value}</th>
     `);
     $swatch.css("background-color", `${hexData.hex.value}`);
+    $paint.css("background-color", `${hexData.hex.value}`)
 };
