@@ -12,9 +12,12 @@
     letter-spacing: .02em;
   }
 
+  /* ----------------------Illustration--------------------- */
+
   .container {
     position: relative;
-    width: 650px;
+    width: 700px;
+    height: 550px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -52,6 +55,79 @@
     bottom: 50px;
   }
 
+  .eye {
+      position: relative;
+      left: 175px;
+      top: 20px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #ffffff;
+  }
+
+  .pupil {
+    position: relative;
+    left: 200px;
+    bottom: 60px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #000000;
+  }
+
+  .cheek {
+      position: relative;
+      width: 120px;
+      height: 30px;
+      bottom: 80px;
+      left: 170px;
+      border-radius: 50%;
+      background-color: #FF9669;
+  }
+
+  /* .mouth {
+      position: relative;
+      width: 200px;
+      height: 250px;
+      left: 98px;
+      clip-path: ellipse(52% 31% at 99% 1%);
+      
+      background-color: #000000;
+  } */
+
+  .nose{
+      position: relative;
+      width: 100px;
+      height: 75px;
+      background-color: #FF9669;
+      border-radius: 50px;
+      left: 250px;
+      top: 175px;
+      transform: rotate(-5deg);
+  }
+
+  .body {
+      position: relative;
+      bottom: 225px;
+      width: 280px;
+      height: 275px;
+      clip-path: ellipse(45% 50% at 50% 100%);
+      background-color: #F7ECBD;
+    }
+
+    .shoulder {
+      position: relative;
+      z-index: 1;
+      bottom: 500px;
+      left: 30px;
+      width: 250px;
+      height: 275px;
+      clip-path: ellipse(45% 50% at 50% 100%);
+      background-color: #3f99d7;
+    }
+
+  /* ----------------------table CSS--------------------- */
+
   table {
     width: 700px;
     height: 115px;
@@ -66,7 +142,7 @@
   }
   
   table, tr, th {
-    border: 3px solid #3C6673;
+    border: 4px solid #3C6673;
     border-collapse: collapse;
   }
   
@@ -106,8 +182,8 @@
   
   input[type="text"] {
     border-radius: 5px;
-    border-color: #3C6673;
-  }
+    border: 3px solid #3C6673;
+}
   
   input[type="submit"] {
     color: #fff;
