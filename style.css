@@ -85,15 +85,15 @@
       background-color: #FF9669;
   }
 
-  /* .mouth {
+  .mouth {
       position: relative;
-      width: 200px;
-      height: 250px;
-      left: 98px;
-      clip-path: ellipse(52% 31% at 99% 1%);
-      
-      background-color: #000000;
-  } */
+      width: 115px;
+      height: 75px;
+      background-color: black;
+      left: 185px;
+      bottom: 20px;
+      border-radius: 19% 0% 100% 58% / 1% 0% 100% 72%;
+  }
 
   .nose{
       position: relative;
@@ -124,6 +124,70 @@
       height: 275px;
       clip-path: ellipse(45% 50% at 50% 100%);
       background-color: #3f99d7;
+    }
+
+    .arm {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      left: 390px;
+      bottom: 820px;
+      transform: rotate(-52deg);
+      z-index: 0;
+      background-color: #FF9669;
+    }
+
+    .hand {
+      position: relative;
+      width: 135px;
+      height: 135px;
+      left: 430px;
+      bottom: 1010px;
+      transform: rotate(-15deg);
+      border-radius: 50% 0% 0% 20%;
+      z-index: 0;
+      background-color: #FF9669;
+    }
+
+    .finger1 {
+        position: relative;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        left: 530px;
+        bottom: 1161px;
+        background-color: #FF9669;
+    }
+
+    .finger2 {
+        position: relative;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        left: 545px;
+        bottom: 1163px;
+        background-color: #FF9669;
+    }
+
+    .finger3 {
+        position: relative;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        left: 555px;
+        bottom: 1165px;
+        background-color: #FF9669;
+    }
+
+    .sleve {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        left: 320px;
+        bottom: 700px;
+        z-index: 1;
+        clip-path: polygon(40% 39%, 100% 64%, 72% 100%, 0% 100%);
+        background-color: #3f99d7;
     }
 
   /* ----------------------table CSS--------------------- */
