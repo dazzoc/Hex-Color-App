@@ -133,49 +133,50 @@
       left: 390px;
       bottom: 820px;
       transform: rotate(-52deg);
-      z-index: 0;
+      z-index: 1;
       background-color: #FF9669;
     }
 
     .hand {
       position: relative;
-      width: 135px;
-      height: 135px;
+      width: 140px;
+      height: 140px;
       left: 430px;
-      bottom: 1010px;
+      bottom: 1015px;
       transform: rotate(-15deg);
       border-radius: 50% 0% 0% 20%;
-      z-index: 0;
+      z-index: 2;
       background-color: #FF9669;
     }
 
     .finger1 {
         position: relative;
-        width: 45px;
-        height: 45px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
-        left: 530px;
-        bottom: 1161px;
+        left: 535px;
+        bottom: 1173px;
+        z-index: 2;
         background-color: #FF9669;
     }
 
     .finger2 {
         position: relative;
-        width: 45px;
-        height: 45px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
-        left: 545px;
-        bottom: 1163px;
+        left: 547px;
+        bottom: 1180px;
         background-color: #FF9669;
     }
 
     .finger3 {
         position: relative;
-        width: 45px;
-        height: 45px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         left: 555px;
-        bottom: 1165px;
+        bottom: 1185px;
         background-color: #FF9669;
     }
 
@@ -185,11 +186,42 @@
         height: 200px;
         left: 320px;
         bottom: 700px;
-        z-index: 1;
+        z-index: 3;
         clip-path: polygon(40% 39%, 100% 64%, 72% 100%, 0% 100%);
         background-color: #3f99d7;
     }
 
+    .brush {
+        position: relative;
+        width: 230px;
+        height: 50px;
+        border-radius: 10px;
+        left: 410px;
+        bottom: 1373px;
+        z-index: 1;
+        background-color: #ab7341;
+    }
+
+    .line {
+        position: relative;
+        width: 200px;
+        height: 10px;
+        left: 15px;
+        top: 10px;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+
+    .handle {
+        position: relative;
+        width: 60px;
+        height: 200px;
+        left: 85px;
+        top: 40px;
+        z-index: 0;
+        border-radius: 0px 0px 30px 30px;
+        background-color: #ab7341;
+    }
   /* ----------------------table CSS--------------------- */
 
   table {
