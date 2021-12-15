@@ -47,16 +47,22 @@ function render(hexData) {
     $paint.css("background-color", `${hexData.hex.value}`)
 };
 
+// Button funtion to change color on hover
 $button.hover(function() {
     $(this).css('background-color', '#0ce855');
 }, function () {
     $(this).css('background-color', '#7A9A01');
 });
 
-// for(let i = 0; i < $splitText.length; i++) {
-//     $text.innerHTML += "<span>" + $splitText[i] + "</span>";
-//     console.log($text)
-// }
+//
+for(let i = 0; i < $splitText.length; i++) {
+    $text.innerHTML += "<span>" + $splitText[i] + "</span>";
+    console.log($text)
+};
+
+$text.ready(function(){
+    $text.animate({})
+})
 
 
 // $splitText.forEach() {
