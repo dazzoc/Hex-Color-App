@@ -55,14 +55,14 @@ $button.hover(function() {
 });
 
 //
-for(let i = 0; i < $splitText.length; i++) {
-    $text.innerHTML += "<span>" + $splitText[i] + "</span>";
-    console.log($text)
-};
+// for(let i = 0; i < $splitText.length; i++) {
+//     $text.innerHTML += "<span>" + $splitText[i] + "</span>";
+//     console.log($text)
+// };
 
-$text.ready(function(){
-    $text.animate({})
-})
+// $text.ready(function(){
+//     $text.animate({})
+// })
 
 
 // $splitText.forEach() {
