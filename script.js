@@ -4,7 +4,7 @@ const URL = 'https://www.thecolorapi.com/id?hex=';
 // Element References 
 const $form = $('form');
 const $input = $('input[type="text"]');
-let button = $('input[type="submit"]');
+const $button = $('input[type="submit"]');
 let $info = $('.info');
 let $swatch = $('.swatchColor');
 let $paint = $('.paint, .paint2, .paint3, .paint4');
@@ -12,8 +12,6 @@ const $text = $('#type');
 const $strText = $text.text();
 const $splitText = $strText.split("");
 $text.textContent = "";
-// let $char = 0;
-// let $timer = setInterval(onTick, 500);
 //console.log($splitText);
 
 // Event Listeners 
@@ -49,15 +47,15 @@ function render(hexData) {
     $paint.css("background-color", `${hexData.hex.value}`)
 };
 
+$button.hover(function() {
+    $(this).css('background-color', '#0ce855');
+}, function () {
+    $(this).css('background-color', '#7A9A01');
+});
+
 // for(let i = 0; i < $splitText.length; i++) {
 //     $text.innerHTML += "<span>" + $splitText[i] + "</span>";
 //     console.log($text)
-// }
-
-// function onTick(){
-//     const $span = $text.$span.$char;
-//     $span.classList.add('jump');
-//     $char++;
 // }
 
 
