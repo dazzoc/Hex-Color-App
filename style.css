@@ -15,7 +15,7 @@
 
   .content {
       padding: 0;
-      margin-top: 5vh;
+      margin-top: 10vh;
       font-size: 4em;
       font-weight: 900;
       letter-spacing: -.13em;
@@ -391,7 +391,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
     color: #3C6673;
   }
   
