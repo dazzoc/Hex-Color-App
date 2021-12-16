@@ -18,7 +18,7 @@ ___
 -->
 ___
 ## Getting Started
-[Click Here](http://www.cdazzo.com) to see my deployed app!
+[Click Here](https://dazzoc.github.io/Hex-Color-App/) to see my deployed app!
 ___
 ## Future Enhancements
 - The ablility to favorit and save the color to localstorage
