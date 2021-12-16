@@ -7,7 +7,7 @@ const $input = $('input[type="text"]');
 const $button = $('input[type="submit"]');
 let $info = $('.info');
 let $swatch = $('.swatchColor');
-let $paint = $('.paint, .paint2, .paint3, .paint4');
+let $paint = $('.paint, .paint2, .paint3, .paint4, .paint5, .paint6');
 const $eye = $('.pupel');
 const $hat = $('.hat');
 const $mouth = $('.mouth');

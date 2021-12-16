@@ -290,12 +290,26 @@
         background-color: #ab7341;
     }
 
+    .bristle-lines {
+        position: relative;
+        width: 5px;
+        height: 100px;
+        z-index: 1;
+        bottom: 310px;
+        left: 21px;
+        background-color: #b4916d;
+        box-shadow: 18px -8px 0 #b4916d, 
+        36px 0 0 #b4916d, 54px 0 0 #b4916d, 72px 0 0 #b4916d,
+        90px 0 0 #b4916d, 108px -8px 0 #b4916d, 126px 0 0 #b4916d, 
+        144px 0 0 #b4916d, 162px 0 0 #b4916d, 180px -8px 0 #b4916d;
+    }
+
     .bristles {
         position: relative;
         width: 215px;
         height: 160px;
         z-index: 0;
-        bottom: 360px;
+        bottom: 460px;
         left: 7px;
         background-color: #dcc275;
     }
@@ -304,8 +318,9 @@
         position: relative;
         width: 100px;
         height: 125px;
-        bottom: 535px;
+        bottom: 635px;
         right: 0px;
+        z-index: 2;
         border-radius: 95% 100% 100% 73% / 27% 73% 56% 79%;
         background-color: #3C6673;
     }
@@ -314,8 +329,9 @@
         position: relative;
         width: 100px;
         height: 100px;
-        bottom: 660px;
+        bottom: 760px;
         left: 40px;
+        z-index: 2;
         transform: rotate(-45deg);
         border-radius: 34% 79% 100% 49% / 37% 96% 65% 38%;
         background-color: #3C6673;
@@ -325,8 +341,9 @@
         position: relative;
         width: 100px;
         height: 100px;
-        bottom: 760px;
+        bottom: 860px;
         left: 78px;
+        z-index: 2;
         transform: rotate(20deg);
         border-radius: 95% 79% 100% 73% / 60% 96% 65% 38%;
         background-color: #3C6673;
@@ -336,12 +353,35 @@
         position: relative;
         width: 85px;
         height: 85px;
-        bottom: 860px;
+        bottom: 960px;
         left: 145px;
+        z-index: 2;
         transform: rotate(20deg);
         border-radius: 95% 79% 100% 73% / 60% 96% 65% 38%;
         background-color: #3C6673;
     }
+
+    .paint5 {
+       position: relative;
+       width: 25px;
+       height: 25px;
+       right: 182px;
+       bottom: 675px;
+       border-radius: 95% 84% 100% 73% / 62% 73% 56% 64%;
+       transform: rotate(30deg);
+       background-color: #3c6673; 
+    }
+
+    .paint6 {
+        position: relative;
+        width: 10px;
+        height: 10px;
+        right: 160px;
+        bottom: 675px;
+        border-radius: 95% 84% 100% 73% / 62% 73% 56% 64%;
+        transform: rotate(30deg);
+        background-color: #3c6673; 
+     }
 
   /* ----------------------table CSS--------------------- */
 
