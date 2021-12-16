@@ -21,5 +21,7 @@ ___
 [Click Here](https://dazzoc.github.io/Hex-Color-App/) to see my deployed app!
 ___
 ## Future Enhancements
+- Responsive design for mobile 
+- option to input CMYK, or RGB code
 - The ablility to favorit and save the color to localstorage
 
