@@ -8,14 +8,14 @@ const $button = $('input[type="submit"]');
 let $info = $('.info');
 let $swatch = $('.swatchColor');
 let $paint = $('.paint, .paint2, .paint3, .paint4');
-const $text = $('#type');
-const $strText = $text.text();
-const $splitText = $strText.split("");
-$text.textContent = "";
+const $eye = $('.pupel');
+const $hat = $('.hat');
+const $mouth = $('.mouth');
 //console.log($splitText);
 
 // Event Listeners 
 $form.on('submit', getHex);
+
 
 // Functions 
 // Get data from the user input of a hex code and call the render function
@@ -47,24 +47,20 @@ function render(hexData) {
     $paint.css("background-color", `${hexData.hex.value}`)
 };
 
-// Button funtion to change color on hover
+// Button funtion 
 $button.hover(function() {
     $(this).css('background-color', '#0ce855');
+    $eye.css('left', '188px');
+    $eye.css('top', '125px');
+    $hat.css('bottom', '55px');
+    $mouth.css('width', '75px');
 }, function () {
     $(this).css('background-color', '#7A9A01');
+    $eye.css('left', '200px');
+    $eye.css('top', '115px');
+    $hat.css('bottom', '10px');
+    $mouth.css('width', '115px');
 });
 
-//
-// for(let i = 0; i < $splitText.length; i++) {
-//     $text.innerHTML += "<span>" + $splitText[i] + "</span>";
-//     console.log($text)
-// };
-
-// $text.ready(function(){
-//     $text.animate({})
-// })
 
 
-// $splitText.forEach() {
-//     $text.innerHTML += "<span>" + $splitText + "</span>";
-// };
