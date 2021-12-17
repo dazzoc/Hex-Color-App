@@ -13,9 +13,9 @@ ___
 ## Screenshots
 
 ![Imgur](https://i.imgur.com/1b71oIt.png)
-<!--
-![Screenshot](image or url)
--->
+
+![Screenshot](https://i.imgur.com/sgMIDYC.png)
+
 ___
 ## Getting Started
 [Click Here](https://dazzoc.github.io/Hex-Color-App/) to see my deployed app!
