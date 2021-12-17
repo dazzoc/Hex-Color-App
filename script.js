@@ -1,3 +1,6 @@
+//IIFE
+$(function () {
+
 // Variables (URL for API)
 const URL = 'https://www.thecolorapi.com/id?hex=';
 
@@ -62,5 +65,5 @@ $button.hover(function() {
     $mouth.css('width', '115px');
 });
 
-
+});
 
